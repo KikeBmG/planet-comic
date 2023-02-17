@@ -2,7 +2,7 @@
   "name": "planet-comic",
   "description": "Webcomponent planet-comic following open-wc recommendations",
   "license": "MIT",
-  "author": "planet-comic",
+  "author": "kikebmg",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -1,10 +1,10 @@
-<p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
-</p>
-
-## Open-wc Starter App
+## PlanetComic
 
 [![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
+
+_Quique Gómez. Diciembre 2017._
+
+_Proyecto Final del C.F.G.S. Desarrollo de Aplicaciones Web_
 
 ## Quickstart
 
