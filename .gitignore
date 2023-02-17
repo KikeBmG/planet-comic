@@ -9,9 +9,6 @@
 /node_modules/
 /npm-debug.log
 
-## testing
-/coverage/
-
 ## temp folders
 /.tmp/
 
@@ -20,6 +17,5 @@
 /dist/
 /out-tsc/
 
-storybook-static
 custom-elements.json
 package-lock.json
