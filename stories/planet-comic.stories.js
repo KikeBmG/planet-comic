@@ -1,5 +1,5 @@
 import { html } from 'lit';
-import '../src/planet-comic.js';
+import '@pages/planet-comic/planet-comic.js';
 
 export default {
   title: 'PlanetComic',

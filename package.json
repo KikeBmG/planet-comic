@@ -53,7 +53,10 @@
   },
   "prettier": {
     "singleQuote": true,
-    "arrowParens": "avoid"
+    "arrowParens": "avoid",
+    "traillingComma": "none",
+    "tabWidth": 2,
+    "bracketSpacing": true
   },
   "husky": {
     "hooks": {

@@ -1,7 +1,7 @@
 import { html } from 'lit';
 import { fixture, expect } from '@open-wc/testing';
 
-import '../src/planet-comic.js';
+import '@pages/planet-comic/planet-comic.js';
 
 describe('PlanetComic', () => {
   let element;
