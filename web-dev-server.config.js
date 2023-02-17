@@ -2,7 +2,7 @@ import { nodeResolve } from '@rollup/plugin-node-resolve';
 
 const hmr = process.argv.includes('--hmr');
 
-export default ({
+export default {
   open: '/app',
   watch: !hmr,
   nodeResolve: {
@@ -10,4 +10,4 @@ export default ({
   },
   appIndex: './app/index.html',
   plugins: [nodeResolve()]
-});
+};
