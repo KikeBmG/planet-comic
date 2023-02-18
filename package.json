@@ -12,10 +12,11 @@
     "start:build": "web-dev-server --root-dir dist --app-index index.html --open",
     "analyze": "cem analyze --litelement",
     "start": "wds -c ./server/config.js",
-    "start2": "wds --root-dir ./app --app-index ./app/index.html --node-resolve true"
+    "start:c": "wds --root-dir ./app --app-index ./app/index.html --node-resolve true"
   },
   "dependencies": {
-    "lit": "^2.0.2"
+    "lit": "^2.6.1",
+    "bootstrap": "^5.2.3"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.4",
