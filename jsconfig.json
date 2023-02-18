@@ -6,7 +6,9 @@
       "@pages/*": ["app/pages/*"],
       "@locales/*": ["app/locales/*"],
       "@utils/*": ["app/utils/*"],
-    }
+    },
+    "module": "commonjs",
+    "target": "es6"
   },
   "exclude": ["node_modules", "dist"]
 }
