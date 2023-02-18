@@ -1,11 +1,7 @@
 import texts from '../locales/locales.json' assert { type: "json" };
 
-export class LangMixin {
-  constructor() {
-    this.lang = window.AppConfig.lang;
-  }
-
+export const LangMixin = superClass =>  class extends superClass {
   t(key) {
-    return texts[this.lang][key] || key;
+    return texts[window.AppConfig.lang][key] || key;
   }
 }

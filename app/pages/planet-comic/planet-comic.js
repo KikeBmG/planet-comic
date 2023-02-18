@@ -1,9 +1,11 @@
 import { LitElement, html } from 'lit';
+import { LangMixin } from '../../utils/langMixin.js';
+
 import styles from './planet-comic-styles.js';
 
 const logo = new URL('../../resources/images/open-wc-logo.svg', import.meta.url).href;
 
-class PlanetComic extends LitElement {
+class PlanetComic extends LangMixin(LitElement) {
   static get is() {
     return 'planet-comic';
   }
@@ -22,14 +24,14 @@ class PlanetComic extends LitElement {
 
   constructor() {
     super();
-    this.header = 'My app';
+    this.header = '';
   }
 
   render() {
     return html`
       <main>
         <div class="logo"><img alt="open-wc logo" src=${logo} /></div>
-        <h1>${this.header}</h1>
+        <h1>${this.t('my-app')}</h1>
 
         <p>Edit <code>src/PlanetComic.js</code> and save to reload.</p>
         <a
